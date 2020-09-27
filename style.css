@@ -25,3 +25,28 @@ nav a{
     padding: 7px 25px;
     display: inline-block;
 }
+body, html {
+    height: 100%;
+}
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../waaris-clone/images/photographer.jpg");
+
+    height: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.hero-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, 50%);
+    color: white;
+}
